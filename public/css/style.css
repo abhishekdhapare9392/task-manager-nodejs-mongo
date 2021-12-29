@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800;900&display=swap');
+
+
+html{
+    font-size: 125px;
+}
+
+*{
+    padding: 0;
+    margin: 0;    
+}
+
+body{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+section{
+    width: 600px;
+    padding: 25px 0;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div.add-task-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow:  3px 3px 15px #00000099;
+    padding: 25px 35px;
+}
+
+div.add-task-container div{
+    margin-top: 25px;
+}
+
+.task-input{
+    color: #fff;
+    padding: 12px 7px;
+    border: 0;
+    font-size: 18px;
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff99;
+}
+
+.task-input:focus-visible, .task-input:focus, .task-input:active{
+    box-shadow: none;
+    outline: none;
+}
+
+.btn{
+    padding: 11px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+    box-shadow: 3px 3px 15px #00000099;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #121212;
+    transform: scale(0.9);
+}
+
+.task-list-container{
+    display: block;
+    padding: 15px 0;
+    margin-top: 25px;
+}
+
+.task-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 3px 3px 15px #00000099;
+    padding: 15px;
+    margin: 5px 0;
+}
+
+.task-complete-sign i{
+    color: green;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.task-title{
+    font-weight: 600;
+}
+
+.text-muted{
+    font-weight: 600;
+    color: #ffffff89;
+    opacity: .6;
+}
+
+.btn-edit i {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.btn-delete i{
+    color: darkred;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.action-btns a{
+    margin-right: 6px;
+}
+
+
+
+
+
